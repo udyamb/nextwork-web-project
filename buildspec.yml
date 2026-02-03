@@ -20,7 +20,7 @@ phases:
       - mvn package -s settings.xml
 artifacts:
   files:
-    - .\nextwork-web-project.war
+    - target/*.war
     - appspec.yml
     - scripts/**/*
   discard-paths: no
